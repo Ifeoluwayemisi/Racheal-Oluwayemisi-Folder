@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+</head>
+<style>
+    .main-container {
+        border: 2px solid rgb(0, 200, 255);
+        height: 300px;
+        display:  grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        padding: 20px;
+        margin: 50px;
+    }
+    .g{
+        height: 260px;
+    }
+    .r{
+        height: 230px;
+    }
+    .i{
+        height: 210px;
+    }
+     .d{
+        height: 180px
+     }
+    div{
+        border: 2px solid rgba(245, 11, 159, 0.434);
+    }
+</style>
+<body>
+    <div class="main-container" >
+        <div class="g">Grid-1</div>
+        <div class="r">Grid-2</div>
+        <div class="i">Grid-3</div>
+        <div class="d">Grid-4</div>
+    </div>
+    
+</body>
+</html>

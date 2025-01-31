@@ -1,0 +1,148 @@
+.navbar{
+    width: 100%;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    text-decoration: none;
+}
+.navul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border: 0px;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: rgb(232, 8, 120);
+    text-align: center;
+}
+body{
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+}
+h1{
+    color: rgb(210, 129, 23);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: blanchedalmond;
+}
+.sat{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr ;
+    gap: 10px;
+}
+.A{
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+}
+.B{
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+}
+.C{
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+}
+.D{
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+}
+.E{
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+}
+.vid{
+    height: 300px;
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.ff{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+.hh{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+.ii{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+.jj{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+.kk{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+p{
+    text-align: left;
+    text-decoration: solid;
+    color: rgb(35, 172, 218);
+    font-size: larger;
+    font-style: italic;
+}
+th,td, table{
+    border: 2px solid pink;
+    border-radius: 5px;
+    border-style: dotted;
+    text-align: center;
+}
+th,td{
+    border: none;
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    width: 10%;
+}
+table{
+    border: 2px solid pink;
+    width: 100%;
+    height: 100%;
+}
+tr:hover{
+    background-color: antiquewhite;
+}
+td:{
+    background-color: blanchedalmond;
+}
+th{
+    background-color: blueviolet;
+    border-collapse: collapse
+}
+.bee{
+    color:orangered;
+}
+.bea{
+    color: blue;
+}
+.beg{
+    color: aqua;
+}
+footer{
+    text-align: center;
+}
